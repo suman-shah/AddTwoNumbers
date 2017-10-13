@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    margin-top: 100px;
+    width: 90%;   
+}
+
+.calculator{
+    border: none;
+    background: rgb(204, 192, 166);
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+#number-box-one, 
+#number-box-two,
+#sum-of-numbers {
+    margin-bottom: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+.operator-label, .equals-label {
+    display:inline-block;
+}
+
+.add-button{
+    cursor: pointer;
+    background: black;
+    border-color: black;
+
+}
+
+.add-button:hover{
+    background: white;
+    color:black;
+    border-color: black;
+    -webkit-transition: 1s;
+    -moz-transition: 1s; 
+    transition: 1s;
+}

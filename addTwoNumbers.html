@@ -1,0 +1,41 @@
+<!DOCTYPE HTML5>
+
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="addTwoNumbers.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="calculator">
+                        <h3>Simple Addition Calculator</h3>
+                        <br>
+
+                        <!--First Input-->
+                        <input type="text" name="numberOne" id="number-box-one" value="0">
+
+                        <p class="operator-label"> + </p>
+
+                        <!--Second Input-->
+                        <input type="text" name="numberTwo" id="number-box-two" value="0">
+                        
+                        <p class="equals-label"> = </p>
+                        
+                        <!--Result-->
+                        <input type="text" name="sum" id="sum-of-numbers">
+                        <button class="btn btn-primary add-button" type="button" onClick="javascript: addTwoNumbers()">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <script src="addTwoNumbers.js"></script>
+    </body>
+</html>
